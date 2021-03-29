@@ -1,0 +1,17 @@
+2021-03-29T13:40:39.312354+00:00 heroku[web.1]: Starting process with command `/sbin/tini -- /usr/local/searx/dockerfiles/docker-entrypoint.sh`
+2021-03-29T13:40:42.753005+00:00 app[web.1]: [WARN  tini (3)] Tini is not running as PID 1 and isn't registered as a child subreaper.
+2021-03-29T13:40:42.753016+00:00 app[web.1]: Zombie processes will not be re-parented to Tini, so zombie reaping won't work.
+2021-03-29T13:40:42.753017+00:00 app[web.1]: To fix the problem, use the -s option or set the environment variable TINI_SUBREAPER to register Tini as a child subreaper, or run Tini as PID 1.
+2021-03-29T13:40:42.753149+00:00 app[web.1]: [FATAL tini (4)] exec /usr/local/searx/dockerfiles/docker-entrypoint.sh failed: No such file or directory
+2021-03-29T13:40:42.832768+00:00 heroku[web.1]: Process exited with status 127
+2021-03-29T13:40:42.911679+00:00 heroku[web.1]: State changed from starting to crashed
+2021-03-29T13:40:42.915841+00:00 heroku[web.1]: State changed from crashed to starting
+2021-03-29T13:40:46.584970+00:00 heroku[web.1]: Starting process with command `/sbin/tini -- /usr/local/searx/dockerfiles/docker-entrypoint.sh`
+2021-03-29T13:40:48.844086+00:00 app[web.1]: [WARN  tini (3)] Tini is not running as PID 1 and isn't registered as a child subreaper.
+2021-03-29T13:40:48.844104+00:00 app[web.1]: Zombie processes will not be re-parented to Tini, so zombie reaping won't work.
+2021-03-29T13:40:48.844105+00:00 app[web.1]: To fix the problem, use the -s option or set the environment variable TINI_SUBREAPER to register Tini as a child subreaper, or run Tini as PID 1.
+2021-03-29T13:40:48.844300+00:00 app[web.1]: [FATAL tini (4)] exec /usr/local/searx/dockerfiles/docker-entrypoint.sh failed: No such file or directory
+2021-03-29T13:40:48.906307+00:00 heroku[web.1]: Process exited with status 127
+2021-03-29T13:40:49.018743+00:00 heroku[web.1]: State changed from starting to crashed
+2021-03-29T13:40:50.468982+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=safe-shelf-79706.herokuapp.com request_id=6862278b-b697-44aa-9b00-97fc0eefde1c fwd="195.138.94.200" dyno= connect= service= status=503 bytes= protocol=https
+2021-03-29T13:40:52.236873+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=safe-shelf-79706.herokuapp.com request_id=f895e4e6-87ef-4c10-b70b-1bd2b1aacc5d fwd="195.138.94.200" dyno= connect= service= status=503 bytes= protocol=https
